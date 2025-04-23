@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Nivel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="container-interno">
+                <h1 class="titulo-principal">Consulte o nível do seu herói</h1>
+                <form action="#" method="post" class="container-form">
+                    <div class="container-input-nome">
+                        <input type="text" name="inputNomeHeroi" id="inputNomeHeroi" placeholder="Informe o nome do herói...">
+                    </div>
+                    <div class="container-input-xp">
+                        <input type="text" name="inputXPHeroi" id="inputXPHeroi" placeholder="Informe o XP do herói...">
+                    </div>
+                    <button type="button" id="btnConsultar" name="btnConsultar" onclick="consultarNivel()">Consultar</button>
+                    <div class="container-resultado">
+                        <div class="resultadoConsulta"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <ul class="lista-rodape">
+                <li>
+                    Desenvolvido por: <a href="https://github.com/ivanribeirotrc" target="_blank">Ivan Ribeiro</a>
+                </li>
+                <li>
+                    Imagem de Fundo por: <a href="https://br.freepik.com/imagem-ia-gratis/cena-de-pixels-graficos-de-8-bits-com-a-natureza_137494898.htm">Freepik</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
